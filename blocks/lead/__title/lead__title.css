@@ -3,7 +3,6 @@
 	text-align: center;
 	font-weight: 900;
 	color: #FFFFFF;
-	margin: 0 auto 0;
 }
 
 @media screen and (max-width: 1100px) {
@@ -12,6 +11,7 @@
 		max-height: 200px;
 		line-height: 100px;
 		font-size: 96px;
+
 	}
 }
 
@@ -21,6 +21,7 @@
 		max-height: 200px;
 		line-height: 100px;
 		font-size: 96px;
+
 	}
 }
 
