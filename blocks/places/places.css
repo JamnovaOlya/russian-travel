@@ -1,0 +1,38 @@
+.places {
+	display: grid;
+	background-color: #2A2C2F;
+}
+
+@media screen and (max-width: 1100px) {
+	.places {
+		max-width: 984px;
+		max-height: 3392px;
+		padding: 0 148px 0;
+	}
+}
+
+@media screen and (max-width: 999px) {
+	.places {
+		max-width: 928px;
+		max-height: 3292px;
+		padding: 0 48px 0;
+	}
+}
+
+@media screen and (max-width: 665px) {
+	.places {
+		max-width: 984px;
+		max-height: 2808px;
+		padding: 0 24px 0;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.places {
+		max-width: 320px;
+		max-height: 5177px;
+		padding: 0;
+		grid-row-gap: 50px;
+		margin-top: 64px;
+	}
+}

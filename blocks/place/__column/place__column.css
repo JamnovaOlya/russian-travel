@@ -1,0 +1,7 @@
+.place__column {
+	max-height: 519px;
+	display: flex;
+	flex-direction: column;
+	gap: 26px;
+	margin: 0 16px 0;
+}

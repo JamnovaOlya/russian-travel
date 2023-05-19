@@ -1,0 +1,12 @@
+.place__link {
+	display: flex;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-decoration-line: underline;
+	color: #FFFFFF;
+	width: 100%;
+	max-height: 22px;
+}
+
