@@ -1,7 +1,12 @@
 .place__column {
-	max-height: 519px;
 	display: flex;
 	flex-direction: column;
 	gap: 26px;
-	margin: 0 16px 0;
+	margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.place__column {
+		margin: 0 16px 0;
+	}
 }

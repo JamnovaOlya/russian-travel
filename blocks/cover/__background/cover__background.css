@@ -4,8 +4,13 @@
 	background-position: center;
 	background-size: cover;
 	text-decoration: none;
-	object-fit: contain;
-	
+	background-color: rgb(42, 44, 47, 0.8);
+	opacity: 0.8;
+}
+
+.cover__background:hover {
+	background-color: rgb(42, 44, 47, 0.3);
+	opacity: 0.3;
 }
 
 
