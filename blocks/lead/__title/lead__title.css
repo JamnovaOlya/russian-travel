@@ -1,6 +1,5 @@
 .lead__title {
 	max-width: 720px;
-	display: flex;
 	text-align: center;
 	width: calc(100% - 2 * 132px);
 	font-weight: 900;
@@ -16,16 +15,11 @@
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 	.lead__title {
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 470px) {
-	.lead__title {
-		width: 100%;
+		max-width: calc(100% - 2 * 16px);
 		line-height: 44px;
 		font-size: 40px;
+		margin: 0 auto 16px;
 	}
 }
