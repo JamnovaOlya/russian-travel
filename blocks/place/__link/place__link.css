@@ -8,3 +8,10 @@
 	color: #FFFFFF;
 }
 
+.place__link:hover {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	background-color: rgb(42, 44, 47);
+	opacity: 0.8;
+}
