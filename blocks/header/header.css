@@ -10,20 +10,21 @@
 
 @media screen and (max-width: 1279px) {
 	.header {
+		width: calc(100% - 2 * 48px);
 		margin: 0 auto 48px;
 	}
 }
 
 @media screen and (max-width: 1023px) {
 	.header {
-		padding: 0 24px 0;
+		width: calc(100% - 2 * 24px);
 		margin: 0 auto 48px;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.header {
-		padding: 0 16px 0;
+		width: calc(100% - 2 * 16px);
 		margin: 0 auto 48px;
 	}
 }
