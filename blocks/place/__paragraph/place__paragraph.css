@@ -8,12 +8,7 @@
 }
 
 .place__paragraph:last-of-type {
-	margin: 0;
-	margin-top: 26px;
-}
-
-.place__paragraph:first-of-type {
-	margin: 0;
+	margin: 26px 0 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -21,18 +16,9 @@
 		font-size: 16px;
 		line-height: 26px;
 	}
-}
 
-
-@media screen and (max-width: 1023px) {
 	.place__paragraph:last-of-type {
 		margin: 25px 0 0;
-	}
-}
-
-@media screen and (max-width: 1023px) {
-	.place__paragraph:first-of-type {
-		margin: 0;
 	}
 }
 
@@ -42,16 +28,12 @@
 		line-height: 26px;
 		margin: 0 16px 0;
 	}
-}
 
-@media screen and (max-width: 767px) {
 	.place__paragraph:last-of-type {
 		margin: 26px 16px 0;
 	}
-}
 
-@media screen and (max-width: 767px) {
-	.place__paragraph:first-of-type {
+		.place__paragraph:first-of-type {
 		margin: 0 16px 0;
 	}
 }
